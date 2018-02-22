@@ -13,7 +13,7 @@ func main() {
 
 
 	//r.LoadHTMLGlob("templates/*")
-  r.LoadHTMLGlob("templates/**/*")
+  r.LoadHTMLGlob("templates/*")
 	r.Static("/js", "./public/js")
 	r.Static("/css", "./public/css")
 	r.Static("/img", "./public/img")
